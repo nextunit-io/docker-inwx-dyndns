@@ -18,7 +18,7 @@ You can find the INWX_DOMAIN_ID when you take a look into your INWX interface.
 
 ![How to get the INWX_DOMAIN_ID](https://raw.githubusercontent.com/nextunit-io/docker-inwx-dyndns/master/InwxDomainId_small.gif) 
 
-[Better solution](https://raw.githubusercontent.com/nextunit-io/docker-inwx-dyndns/master/InwxDomainId.gif)
+[Better resolution](https://raw.githubusercontent.com/nextunit-io/docker-inwx-dyndns/master/InwxDomainId.gif)
 
 
 ### Example Environment File
