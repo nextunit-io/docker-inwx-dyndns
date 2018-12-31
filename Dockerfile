@@ -4,7 +4,7 @@ LABEL zero <zero@nextunit.io>
 
 RUN \
     apk update && \
-    apk add --update curl
+    apk add --update curl bash
 
 ENV API_ENDPOINT="https://api.domrobot.com/xmlrpc/"
 ENV DYNDNS_DOMAIN=""
