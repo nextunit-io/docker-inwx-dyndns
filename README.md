@@ -21,11 +21,11 @@ You can find the INWX_DOMAIN_ID when you take a look into your INWX interface.
 ### Example Environment File
 
 ```text
-INWX_USER="username-1"
-INWX_PASSWORD="password-of-username-1"
-DYNDNS_DOMAIN="this.is.just.a.test.nextunit.io"
-INWX_DOMAIN_ID="whatever-dns-entry-id"
-SLACK_DEBUG="https://hooks.slack.com/services/XXXXXX/XXXXXXXX/XXxxXXxx"
+INWX_USER=username-1
+INWX_PASSWORD=password-of-username-1
+DYNDNS_DOMAIN=this.is.just.a.test.nextunit.io
+INWX_DOMAIN_ID=whatever-dns-entry-id
+SLACK_DEBUG=https://hooks.slack.com/services/XXXXXX/XXXXXXXX/XXxxXXxx
 ```
 
 ## Run Docker
