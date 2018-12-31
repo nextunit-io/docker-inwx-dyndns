@@ -8,6 +8,11 @@
 # Checkups
 command -v nslookup >/dev/null 2>&1 || { echo >&2 "nslookup is required and need to installed. Note: all needed items are listed in the README.md file."; exit 1; }
 
+if [ -z "$INWX_USER" ] || [ -z "$INWX_PASSWORD" ] || [ -z "$INWX_DOMAIN_ID" ] || [ -z "$DYNDNS_DOMAIN" ] || [ -z "$API_ENDPOINT" ]; then
+    echo >&2 "Please set all environment variables. Take a look into the README.md to see all variables."
+    exit 1
+fi
+
 # Functions
 
 

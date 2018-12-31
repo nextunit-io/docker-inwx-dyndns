@@ -10,7 +10,7 @@ This docker is built to update your DNS entries of your INWX A record. You could
 |INWX_PASSWORD|That is your password to login to INWX|
 |DYNDNS_DOMAIN|That specifies the subdomain you'd like to use.|
 |INWX_DOMAIN_ID|That entry should contain the ID of the domain entry in the INWX ns list|
-|SLACK_DEBUG|This entry is required, if you'd like to send update-debug messages to slack.|
+|SLACK_DEBUG *(Optional)*|This entry is required, if you'd like to send update-debug messages to slack.|
 
 ### How to get the INWX_DOMAIN_ID
 
