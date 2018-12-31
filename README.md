@@ -16,7 +16,8 @@ This docker is built to update your DNS entries of your INWX A record. You could
 
 You can find the INWX_DOMAIN_ID when you take a look into your INWX interface.
 
-<img src="https://raw.githubusercontent.com/nextunit-io/docker-inwx-dyndns/master/InwxDomainId.gif" width="800" alt="How to get the INWX_DOMAIN_ID">
+![How to get the INWX_DOMAIN_ID](https://raw.githubusercontent.com/nextunit-io/docker-inwx-dyndns/master/InwxDomainId.gif)
+
 
 ### Example Environment File
 
